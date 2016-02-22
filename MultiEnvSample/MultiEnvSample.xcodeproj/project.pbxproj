@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4E1DCD01C7A5AF8000BBAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DCCF1C7A5AF8000BBAAC /* AppDelegate.swift */; };
+		B4E1DCD21C7A5AF8000BBAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DCD11C7A5AF8000BBAAC /* ViewController.swift */; };
+		B4E1DCD51C7A5AF8000BBAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DCD31C7A5AF8000BBAAC /* Main.storyboard */; };
+		B4E1DCD81C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DCD61C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodeld */; };
+		B4E1DCDA1C7A5AF8000BBAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DCD91C7A5AF8000BBAAC /* Assets.xcassets */; };
+		B4E1DCDD1C7A5AF8000BBAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DCDB1C7A5AF8000BBAAC /* LaunchScreen.storyboard */; };
+		B4E1DCE81C7A5AF8000BBAAC /* MultiEnvSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DCE71C7A5AF8000BBAAC /* MultiEnvSampleTests.swift */; };
+		B4E1DCF31C7A5AF8000BBAAC /* MultiEnvSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DCF21C7A5AF8000BBAAC /* MultiEnvSampleUITests.swift */; };
+		B4E1DD061C7AF63F000BBAAC /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DD051C7AF63F000BBAAC /* Config.swift */; };
+		B4E1DD081C7AF675000BBAAC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DD071C7AF675000BBAAC /* Config.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4E1DCE41C7A5AF8000BBAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E1DCC41C7A5AF8000BBAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E1DCCB1C7A5AF8000BBAAC;
+			remoteInfo = MultiEnvSample;
+		};
+		B4E1DCEF1C7A5AF8000BBAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E1DCC41C7A5AF8000BBAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E1DCCB1C7A5AF8000BBAAC;
+			remoteInfo = MultiEnvSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4E1DCCC1C7A5AF8000BBAAC /* MultiEnvSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiEnvSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E1DCCF1C7A5AF8000BBAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4E1DCD11C7A5AF8000BBAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4E1DCD41C7A5AF8000BBAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4E1DCD71C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiEnvSample.xcdatamodel; sourceTree = "<group>"; };
+		B4E1DCD91C7A5AF8000BBAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4E1DCDC1C7A5AF8000BBAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4E1DCDE1C7A5AF8000BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E1DCE31C7A5AF8000BBAAC /* MultiEnvSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnvSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E1DCE71C7A5AF8000BBAAC /* MultiEnvSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnvSampleTests.swift; sourceTree = "<group>"; };
+		B4E1DCE91C7A5AF8000BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E1DCEE1C7A5AF8000BBAAC /* MultiEnvSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnvSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E1DCF21C7A5AF8000BBAAC /* MultiEnvSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnvSampleUITests.swift; sourceTree = "<group>"; };
+		B4E1DCF41C7A5AF8000BBAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E1DD051C7AF63F000BBAAC /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B4E1DD071C7AF675000BBAAC /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E1DCC91C7A5AF8000BBAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCE01C7A5AF8000BBAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCEB1C7A5AF8000BBAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4E1DCC31C7A5AF8000BBAAC = {
+			isa = PBXGroup;
+			children = (
+				B4E1DCCE1C7A5AF8000BBAAC /* MultiEnvSample */,
+				B4E1DCE61C7A5AF8000BBAAC /* MultiEnvSampleTests */,
+				B4E1DCF11C7A5AF8000BBAAC /* MultiEnvSampleUITests */,
+				B4E1DCCD1C7A5AF8000BBAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E1DCCD1C7A5AF8000BBAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1DCCC1C7A5AF8000BBAAC /* MultiEnvSample.app */,
+				B4E1DCE31C7A5AF8000BBAAC /* MultiEnvSampleTests.xctest */,
+				B4E1DCEE1C7A5AF8000BBAAC /* MultiEnvSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4E1DCCE1C7A5AF8000BBAAC /* MultiEnvSample */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1DCCF1C7A5AF8000BBAAC /* AppDelegate.swift */,
+				B4E1DCD11C7A5AF8000BBAAC /* ViewController.swift */,
+				B4E1DCD31C7A5AF8000BBAAC /* Main.storyboard */,
+				B4E1DCD91C7A5AF8000BBAAC /* Assets.xcassets */,
+				B4E1DCDB1C7A5AF8000BBAAC /* LaunchScreen.storyboard */,
+				B4E1DCDE1C7A5AF8000BBAAC /* Info.plist */,
+				B4E1DCD61C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodeld */,
+				B4E1DD051C7AF63F000BBAAC /* Config.swift */,
+				B4E1DD071C7AF675000BBAAC /* Config.plist */,
+			);
+			path = MultiEnvSample;
+			sourceTree = "<group>";
+		};
+		B4E1DCE61C7A5AF8000BBAAC /* MultiEnvSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1DCE71C7A5AF8000BBAAC /* MultiEnvSampleTests.swift */,
+				B4E1DCE91C7A5AF8000BBAAC /* Info.plist */,
+			);
+			path = MultiEnvSampleTests;
+			sourceTree = "<group>";
+		};
+		B4E1DCF11C7A5AF8000BBAAC /* MultiEnvSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4E1DCF21C7A5AF8000BBAAC /* MultiEnvSampleUITests.swift */,
+				B4E1DCF41C7A5AF8000BBAAC /* Info.plist */,
+			);
+			path = MultiEnvSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4E1DCCB1C7A5AF8000BBAAC /* MultiEnvSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E1DCF71C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSample" */;
+			buildPhases = (
+				B4E1DCC81C7A5AF8000BBAAC /* Sources */,
+				B4E1DCC91C7A5AF8000BBAAC /* Frameworks */,
+				B4E1DCCA1C7A5AF8000BBAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiEnvSample;
+			productName = MultiEnvSample;
+			productReference = B4E1DCCC1C7A5AF8000BBAAC /* MultiEnvSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4E1DCE21C7A5AF8000BBAAC /* MultiEnvSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E1DCFA1C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSampleTests" */;
+			buildPhases = (
+				B4E1DCDF1C7A5AF8000BBAAC /* Sources */,
+				B4E1DCE01C7A5AF8000BBAAC /* Frameworks */,
+				B4E1DCE11C7A5AF8000BBAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E1DCE51C7A5AF8000BBAAC /* PBXTargetDependency */,
+			);
+			name = MultiEnvSampleTests;
+			productName = MultiEnvSampleTests;
+			productReference = B4E1DCE31C7A5AF8000BBAAC /* MultiEnvSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4E1DCED1C7A5AF8000BBAAC /* MultiEnvSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E1DCFD1C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSampleUITests" */;
+			buildPhases = (
+				B4E1DCEA1C7A5AF8000BBAAC /* Sources */,
+				B4E1DCEB1C7A5AF8000BBAAC /* Frameworks */,
+				B4E1DCEC1C7A5AF8000BBAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E1DCF01C7A5AF8000BBAAC /* PBXTargetDependency */,
+			);
+			name = MultiEnvSampleUITests;
+			productName = MultiEnvSampleUITests;
+			productReference = B4E1DCEE1C7A5AF8000BBAAC /* MultiEnvSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4E1DCC41C7A5AF8000BBAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = io.limlab;
+				TargetAttributes = {
+					B4E1DCCB1C7A5AF8000BBAAC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B4E1DCE21C7A5AF8000BBAAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B4E1DCCB1C7A5AF8000BBAAC;
+					};
+					B4E1DCED1C7A5AF8000BBAAC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B4E1DCCB1C7A5AF8000BBAAC;
+					};
+				};
+			};
+			buildConfigurationList = B4E1DCC71C7A5AF8000BBAAC /* Build configuration list for PBXProject "MultiEnvSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4E1DCC31C7A5AF8000BBAAC;
+			productRefGroup = B4E1DCCD1C7A5AF8000BBAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E1DCCB1C7A5AF8000BBAAC /* MultiEnvSample */,
+				B4E1DCE21C7A5AF8000BBAAC /* MultiEnvSampleTests */,
+				B4E1DCED1C7A5AF8000BBAAC /* MultiEnvSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4E1DCCA1C7A5AF8000BBAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E1DD081C7AF675000BBAAC /* Config.plist in Resources */,
+				B4E1DCDD1C7A5AF8000BBAAC /* LaunchScreen.storyboard in Resources */,
+				B4E1DCDA1C7A5AF8000BBAAC /* Assets.xcassets in Resources */,
+				B4E1DCD51C7A5AF8000BBAAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCE11C7A5AF8000BBAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCEC1C7A5AF8000BBAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4E1DCC81C7A5AF8000BBAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E1DCD81C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodeld in Sources */,
+				B4E1DD061C7AF63F000BBAAC /* Config.swift in Sources */,
+				B4E1DCD21C7A5AF8000BBAAC /* ViewController.swift in Sources */,
+				B4E1DCD01C7A5AF8000BBAAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCDF1C7A5AF8000BBAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E1DCE81C7A5AF8000BBAAC /* MultiEnvSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DCEA1C7A5AF8000BBAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E1DCF31C7A5AF8000BBAAC /* MultiEnvSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E1DCE51C7A5AF8000BBAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E1DCCB1C7A5AF8000BBAAC /* MultiEnvSample */;
+			targetProxy = B4E1DCE41C7A5AF8000BBAAC /* PBXContainerItemProxy */;
+		};
+		B4E1DCF01C7A5AF8000BBAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E1DCCB1C7A5AF8000BBAAC /* MultiEnvSample */;
+			targetProxy = B4E1DCEF1C7A5AF8000BBAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4E1DCD31C7A5AF8000BBAAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4E1DCD41C7A5AF8000BBAAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4E1DCDB1C7A5AF8000BBAAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4E1DCDC1C7A5AF8000BBAAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4E1DCF51C7A5AF8000BBAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4E1DCF61C7A5AF8000BBAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4E1DCF81C7A5AF8000BBAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiEnvSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4E1DCF91C7A5AF8000BBAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiEnvSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4E1DCFB1C7A5AF8000BBAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiEnvSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvSample.app/MultiEnvSample";
+			};
+			name = Debug;
+		};
+		B4E1DCFC1C7A5AF8000BBAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiEnvSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvSample.app/MultiEnvSample";
+			};
+			name = Release;
+		};
+		B4E1DCFE1C7A5AF8000BBAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiEnvSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiEnvSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B4E1DCFF1C7A5AF8000BBAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiEnvSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiEnvSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		B4E1DD0D1C7AFBD9000BBAAC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Development;
+		};
+		B4E1DD0E1C7AFBD9000BBAAC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiEnvSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Development;
+		};
+		B4E1DD0F1C7AFBD9000BBAAC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiEnvSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvSample.app/MultiEnvSample";
+			};
+			name = Development;
+		};
+		B4E1DD101C7AFBD9000BBAAC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiEnvSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiEnvSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Development;
+		};
+		B4E1DD111C7AFBE6000BBAAC /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		B4E1DD121C7AFBE6000BBAAC /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiEnvSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Staging;
+		};
+		B4E1DD131C7AFBE6000BBAAC /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiEnvSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvSample.app/MultiEnvSample";
+			};
+			name = Staging;
+		};
+		B4E1DD141C7AFBE6000BBAAC /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiEnvSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiEnvSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Staging;
+		};
+		B4E1DD151C7AFBF8000BBAAC /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		B4E1DD161C7AFBF8000BBAAC /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiEnvSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Production;
+		};
+		B4E1DD171C7AFBF8000BBAAC /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiEnvSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiEnvSample.app/MultiEnvSample";
+			};
+			name = Production;
+		};
+		B4E1DD181C7AFBF8000BBAAC /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiEnvSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.limlab.MultiEnvSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiEnvSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Production;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4E1DCC71C7A5AF8000BBAAC /* Build configuration list for PBXProject "MultiEnvSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E1DCF51C7A5AF8000BBAAC /* Debug */,
+				B4E1DD111C7AFBE6000BBAAC /* Staging */,
+				B4E1DD0D1C7AFBD9000BBAAC /* Development */,
+				B4E1DCF61C7A5AF8000BBAAC /* Release */,
+				B4E1DD151C7AFBF8000BBAAC /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E1DCF71C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E1DCF81C7A5AF8000BBAAC /* Debug */,
+				B4E1DD121C7AFBE6000BBAAC /* Staging */,
+				B4E1DD0E1C7AFBD9000BBAAC /* Development */,
+				B4E1DCF91C7A5AF8000BBAAC /* Release */,
+				B4E1DD161C7AFBF8000BBAAC /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E1DCFA1C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E1DCFB1C7A5AF8000BBAAC /* Debug */,
+				B4E1DD131C7AFBE6000BBAAC /* Staging */,
+				B4E1DD0F1C7AFBD9000BBAAC /* Development */,
+				B4E1DCFC1C7A5AF8000BBAAC /* Release */,
+				B4E1DD171C7AFBF8000BBAAC /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E1DCFD1C7A5AF8000BBAAC /* Build configuration list for PBXNativeTarget "MultiEnvSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E1DCFE1C7A5AF8000BBAAC /* Debug */,
+				B4E1DD141C7AFBE6000BBAAC /* Staging */,
+				B4E1DD101C7AFBD9000BBAAC /* Development */,
+				B4E1DCFF1C7A5AF8000BBAAC /* Release */,
+				B4E1DD181C7AFBF8000BBAAC /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4E1DCD61C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4E1DCD71C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodel */,
+			);
+			currentVersion = B4E1DCD71C7A5AF8000BBAAC /* MultiEnvSample.xcdatamodel */;
+			path = MultiEnvSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4E1DCC41C7A5AF8000BBAAC /* Project object */;
+}

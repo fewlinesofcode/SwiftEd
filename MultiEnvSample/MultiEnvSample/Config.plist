@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Config.plist
+   MultiEnvSample
+
+   Created by Aleksandr Glagoliev on 2/22/16.
+   Copyright (c) 2016 io.limlab. All rights reserved.
+-->
+<plist version="1.0">
+	<dict>
+		<key>Development</key>
+		<dict>
+			<key>APIEndpointURL</key>
+			<string>Development API Enpoint</string>
+			<key>GoogleAnalyticsToken</key>
+			<string>Development Google token</string>
+			<key>TwitterToken</key>
+			<string>Development Twitter token</string>
+			<key>loggingLevel</key>
+			<string>Log level Dev</string>
+		</dict>
+		<key>Staging</key>
+		<dict>
+			<key>APIEndpointURL</key>
+			<string>Staging API Enpoint</string>
+			<key>GoogleAnalyticsToken</key>
+			<string>Staging Google token</string>
+			<key>TwitterToken</key>
+			<string>Staging Twitter token</string>
+			<key>loggingLevel</key>
+			<string>Log level Stg</string>
+		</dict>
+		<key>Production</key>
+		<dict>
+			<key>APIEndpointURL</key>
+			<string>Production API Enpoint</string>
+			<key>GoogleAnalyticsToken</key>
+			<string>Production Google token</string>
+			<key>TwitterToken</key>
+			<string>Production Twitter token</string>
+			<key>loggingLevel</key>
+			<string>Log level Prod</string>
+		</dict>
+	</dict>
+</plist>
