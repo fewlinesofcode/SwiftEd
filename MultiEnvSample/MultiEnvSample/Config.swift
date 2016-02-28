@@ -26,14 +26,6 @@ extension Config {
 		return configs.objectForKey("APIEndpointURL") as! String
 	}
 	
-	func googleAnalyticsToken() -> String {
-		return configs.objectForKey("GoogleAnalyticsToken") as! String
-	}
-	
-	func twitterToken() -> String {
-		return configs.objectForKey("TwitterToken") as! String
-	}
-	
 	func loggingLevel() -> String {
 		return configs.objectForKey("loggingLevel") as! String
 	}
