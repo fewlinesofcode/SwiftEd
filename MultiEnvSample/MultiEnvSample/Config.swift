@@ -14,19 +14,20 @@ class Config: NSObject {
 	var configs: NSDictionary!
 	
 	override init() {
-		let currentConfiguration = NSBundle.mainBundle().objectForInfoDictionaryKey("Config")!
+		let currentConfiguration = Bundle.main.object(forInfoDictionaryKey: "Config")!
 		print(currentConfiguration)
-		let path = NSBundle.mainBundle().pathForResource("Config", ofType: "plist")!
-		configs = NSDictionary(contentsOfFile: path)!.objectForKey(currentConfiguration) as! NSDictionary
+		let path = Bundle.main.path(forResource: "Config", ofType: "plist")!
+		configs = NSDictionary(contentsOfFile: path)!.object(forKey: currentConfiguration) as! NSDictionary
+        print(configs)
 	}
 }
 
 extension Config {
 	func apiEndpoint() -> String {
-		return configs.objectForKey("APIEndpointURL") as! String
+		return configs.object(forKey: "APIEndpointURL") as! String
 	}
 	
 	func loggingLevel() -> String {
-		return configs.objectForKey("loggingLevel") as! String
+		return configs.object(forKey: "loggingLevel") as! String
 	}
 }
